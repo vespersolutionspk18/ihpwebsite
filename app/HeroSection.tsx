@@ -15,7 +15,7 @@ const HeroSection = () => {
         <Button className="font-sans border-gray-300 font-light text-lg" variant="outline" >Donate Now</Button>
         </div>
       </div>
-      <div className="flex lg:w-[60%] h-[380px] rounded-3xl bg-cover bg-center" style={{backgroundImage: `url('/assets/hero.jpg')`}}>
+      <div className="flex lg:w-[60%] h-[440px] rounded-3xl bg-cover bg-center" style={{backgroundImage: `url('/assets/hero.jpg')`}}>
     
       </div>
     </div>

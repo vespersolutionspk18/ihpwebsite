@@ -7,6 +7,7 @@ import GetinTouch from "./GetinTouch";
 import Footer from "./Footer";
 import ClientCarousel from "./ClientCarousel";
 import RecentProjects from "./RecentProjects";
+import PraiseSection from "./PraiseSection";  
 export default function Home() {
   return (
     <div>
@@ -14,9 +15,10 @@ export default function Home() {
       <HeroSection />
 <ClientCarousel />
       <ChairmanLetter />
-      <GetinTouch />
-      <Footer />
+      
       <RecentProjects />
+      <PraiseSection />
+      <Footer />
     </div>
   );
 }
