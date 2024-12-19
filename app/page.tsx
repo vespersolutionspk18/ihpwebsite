@@ -6,6 +6,7 @@ import ChairmanLetter from "./ChairmanLetter";
 import GetinTouch from "./GetinTouch";
 import Footer from "./Footer";
 import ClientCarousel from "./ClientCarousel";
+import RecentProjects from "./RecentProjects";
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <ChairmanLetter />
       <GetinTouch />
       <Footer />
+      <RecentProjects />
     </div>
   );
 }
