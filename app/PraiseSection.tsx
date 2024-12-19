@@ -2,16 +2,14 @@
 
 import { Button } from '@/components/ui/button'
 import { useRouter } from 'next/navigation';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { FaAngleRight } from "react-icons/fa6";
 
 const PraiseSection = () => {
-  const router = useRouter();
-  const [isVisible, setIsVisible] = useState(true);
 
-  const getInTouchClick = () => {
-    router.push('/contact');
-  };
+
+
+ 
 
   return (
     <div className="font-sans mx-20 flex flex-row gap-10 my-20 items-center justify-center">
