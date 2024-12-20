@@ -9,6 +9,7 @@ import ClientCarousel from "./ClientCarousel";
 import RecentProjects from "./RecentProjects";
 
 import Aboutsection from "./Aboutsection";
+import Faqsection from "./Faqsection";
 export default function Home() {
   return (
     <div>
@@ -19,6 +20,7 @@ export default function Home() {
       <ChairmanLetter />
       
       <RecentProjects />
+      <Faqsection />
 
       <Footer />
     </div>
