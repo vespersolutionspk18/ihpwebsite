@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+
 import React from 'react'
 import IHPLogo from "@/public/assets/iplogo.svg";
 import IHPLogopink from "@/public/assets/ihplogopink.svg";
