@@ -7,7 +7,7 @@ import ChairmanLetter from "./ChairmanLetter";
 import Footer from "./Footer";
 import ClientCarousel from "./ClientCarousel";
 import RecentProjects from "./RecentProjects";
-import PraiseSection from "./PraiseSection";  
+
 import Aboutsection from "./Aboutsection";
 export default function Home() {
   return (
