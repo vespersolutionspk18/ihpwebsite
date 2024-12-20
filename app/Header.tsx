@@ -5,12 +5,14 @@ const Header = () => {
   return (
     <div className="bg-white w-full p-5 flex flex-row justify-between">
       <IHPLogo alt="logo" className="w-[94px]" />
-      <div className="flex flex-row justify-between font-sans font-light text-2xl text-gray-900 gap-7">
+      <div className="flex flex-row justify-between font-sans text-2xl text-gray-900 gap-10">
       <div>Home</div>
       <h4>Recent  Projects</h4>
       <div>About</div>
-      <Button className="w-auto rounded-full bg-bgpink hover:bg-dmagenta text-white font-sans font-light text-2xl" >Contact</Button>
+      <div>Contact</div>
+      
       </div>
+      <Button className=" rounded-full bg-bgpink hover:bg-dmagenta text-white font-sans font-light text-2xl" >Donate</Button>
     </div>
   )
 }
