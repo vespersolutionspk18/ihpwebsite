@@ -19,7 +19,7 @@ const HeroSection = () => {
     <h2 className="text-3xl font-light">Help Children have a safe and <br></br>secure life</h2>
     <Progress value={83} />
     <p className="font-light text-xl text-gray-500">$7,050,982 Raised</p>
-    <div className="w-full flex flex-row justify-between">
+    <div className="w-full flex flex-row justify-between items-center">
     <p className="font-light text-lg text-gray-500">32 Donors</p>
     <CiCircleChevRight className="w-10 h-10 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
     

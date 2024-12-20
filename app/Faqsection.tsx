@@ -31,11 +31,11 @@ const Faqsection = () => {
   };
 
   return (
-    <div className="flex flex-col p-7 md:p-10 md:items-center mt-20">
-      <h2 className="font-sans font-light text-4xl md:text-5xl text-bgpink">
+    <div className="m-5 md:m-10 rounded-3xl flex bg-llpink flex-col p-7  md:p-10 md:py-24 md:items-center mt-20">
+      <h2 className="font-sans font-light text-4xl md:text-5xl text-black">
         Frequently Asked Questions
       </h2>
-      <p className="font-sans mt-5 font-light text-lg md:text-xl text-gray-600 md:text-center">
+      <p className="font-sans mt-5 font-light text-lg md:text-xl text-black md:text-center">
         We prioritize your satisfaction, ensuring a secure financial future.
         Choose us for peace of mind
         <br />
@@ -46,21 +46,21 @@ const Faqsection = () => {
     <div
       key={index}
       className={`border-[1px] ${
-        expandedIndex === index ? "border-gray-500" : "border-gray-300"
+        expandedIndex === index ? "border-gray-800" : "border-gray-500"
       } rounded-2xl p-3 md:p-5 flex flex-col transition-all duration-500`}
     >
       <div
         onClick={() => toggleSection(index)}
         className="flex flex-row justify-between items-center cursor-pointer"
       >
-        <h5 className="font-sans font-light text-xl md:text-2xl text-gray-700">
+        <h5 className="font-sans font-light text-xl md:text-2xl text-blakc">
           {faq.question}
         </h5>
         <div
           className={`rounded-full md:h-[36px] p-1 ml-4 md:ml-0 md:p-0 md:w-[36px] flex items-center justify-center transition-all duration-500 ease-in-out ${
             expandedIndex === index
               ? "bg-bgpink rotate-90"
-              : "bg-white border-[1px] border-gray-300 rotate-0"
+              : "bg-llpink border-[1px] border-gray-500 rotate-0"
           }`}
         >
           
@@ -78,7 +78,7 @@ const Faqsection = () => {
           expandedIndex === index ? "max-h-[200px] mt-5" : "max-h-0"
         }`}
       >
-        <p className="text-gray-600 font-sans font-light text-lg">{faq.answer}</p>
+        <p className="text-black font-sans font-light text-lg">{faq.answer}</p>
       </div>
     </div>
   ))}

@@ -7,7 +7,7 @@ const RecentProjects = () => {
     <div className="flex flex-col p-10 gap-10 font-sans w-full">
       <div className="w-full flex flex-row justify-between">
         <h3 className="text-5xl text-gray-800">Our Flagship <span className="font-medium text-bgpink">Projects</span></h3>
-        <Button variant="outline" className="rounded-full font-light text-xl font-sans">View More</Button>
+        <Button variant="outline" className="rounded-full font-light text-xl font-sans hover:text-white hover:border-0 hover:bg-bgpink">View More</Button>
       </div>
       <div className="flex flex-col gap-5">
       <div className="flex flex-row gap-10"> 

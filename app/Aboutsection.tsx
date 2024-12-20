@@ -10,7 +10,7 @@ const Aboutsection = () => {
         <p className="text-xl text-gray-800 text-justify">
         IHP was founded in 2012 as a non-profit aiming to usher Pakistan into the 21st Century.  Since our inception, we have spearheaded numerous national-level projects introducing cutting-edge ideas and technologies from around the globe to local communities. Our commitment to innovation in social enterprise has established IHP as a leader in driving transformative change and advancing social work in Pakistan.
         </p>
-        <div><Button className=" w-auto rounded-full font-normal text-lg" variant="outline">Donate Now</Button></div>
+        <div><Button className=" w-auto rounded-full font-normal text-lg hover:text-white hover:border-0 hover:bg-bgpink" variant="outline">Learn More</Button></div>
         </div>
     </div>
   )
