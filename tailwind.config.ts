@@ -10,6 +10,11 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			bgpink: '#ed4961',
+			byellow: '#e7a95c',
+			lpink: '#feedee',
+			dmagenta: '#4e1921',
+			lbpink: '#f48696',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

@@ -1,41 +1,57 @@
+import { Button } from '@/components/ui/button'
 import React from 'react'
+import { CiCircleChevRight } from "react-icons/ci";
 
 const RecentProjects = () => {
   return (
-    <div className="flex flex-col p-10 font-sans" id="projects">
-        <div>
-            <h3 className="text-5xl mt-10 text-gray-800 font-medium px-64 text-center">Our Flagship Projects</h3>
-            <p className="text-slate-800 text-lg md:text-xl font-light text-center mt-5">Industry leaders and SME&apos;s trust us to provide efficient and sustainable results</p>
-        </div>
-        <div className="flex flex-row gap-5 my-5 mt-10 items-center justify-center">
-        <div className="group hover:border-black hover:cursor-pointer w-1/2 flex flex-col gap-3 border-[1px] border-gray-200 rounded-2xl p-10 ">
-        
-        <h3 className="font-medium group-hover:text-black text-slate-800 text-2xl">KWSSIP SOP-2 Group-4</h3>
-        <p className="group-hover:text-black font-light text-slate-800 text-justify">Euroconsult led the implementation of SOP-2 in the Karachi Water and Sewerage Services Improvement Project (KWSSIP), focusing on enhancing infrastructure and capacity building. Our efforts supported sustainable water supply improvements and operational reforms to strengthen Karachi&apos;s water and sanitation services.</p>
-        
-        </div>
-        <div className="w-1/2 group hover:border-black hover:cursor-pointer flex flex-col gap-3 border-[1px] border-gray-200 rounded-2xl p-10 ">
-        
-        <h3 className="group-hover:text-black font-medium text-slate-800 text-2xl">Pindiali Small Dam</h3>
-        <p className=" group-hover:text-black font-light text-slate-800">Euroconsult was engaged by the KPK Government for the Pindiali Small Dam project, delivering specialized design and construction services. This initiative aimed to enhance water storage capacity and improve irrigation infrastructure, supporting sustainable water management and boosting agricultural productivity in the region.</p>
-
-        </div>     
-        </div>
-        <div className="flex flex-row gap-5 items-center justify-center">
-        <div className="w-1/2 hover:border-black hover:cursor-pointer flex flex-col gap-3 border-[1px] border-gray-200 rounded-2xl p-10 ">
-        
-        <h3 className="font-medium text-slate-800 text-2xl">Citibank Karachi</h3>
-        <p className="font-light text-slate-800">Euroconsult provided comprehensive services for the SITE, Phase I Building project for CITIBANK Karachi, including feasibility studies, surveys, design, project management, and cost management. Our role ensured efficient planning and execution, contributing to the successful development of a key commercial infrastructure in Karachi.</p>
-
-        </div>
-        <div className="w-1/2 hover:border-black hover:cursor-pointer flex flex-col gap-3 border-[1px] border-gray-200 rounded-2xl p-10 ">
-        
-        <h3 className="font-medium text-slate-800 text-2xl">Gandao Small Dam</h3>
-        <p className="font-light text-slate-800">Euroconsult was appointed to provide consultancy services for the Gandao Small Dam project, covering survey, design/review, and construction supervision. Our expertise ensured precise planning and execution, facilitating the successful development of critical water infrastructure for sustainable resource management.</p>
- 
-        </div>     
-        </div>
-        
+    <div className="flex flex-col p-10 gap-10 font-sans w-full">
+      <div className="w-full flex flex-row justify-between">
+        <h3 className="text-5xl text-gray-800">Our Flagship <span className="font-medium">Projects</span></h3>
+        <Button variant="outline" className="rounded-full font-light text-xl font-sans">View More</Button>
+      </div>
+      <div className="flex flex-col gap-5">
+      <div className="flex flex-row gap-10"> 
+      <div className="w-[60%] bg-cover rounded-2xl h-[360px]" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
+      <div className="w-[40%] flex flex-col justify-between">
+      <h4 className="font-sans font-light text-4xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
+      <p className="font-sans font-light text-justify  text-xl text-gray-800">Addressing the unique challenges faced by Pakistan&apos;s public education system, IHP is exploring the potential of generative AI to create more engaging, accessible, and effective learning opportunities for students.</p>
+      <div className="w-full flex flex-row justify-between">
+        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+            
+      </div>
+      </div>
+      </div>
+      <div className="flex flex-row gap-5">
+      <div className="w-1/3 flex flex-col gap-5">
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
+      <div className="w-full flex flex-row justify-between">
+        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+            
+      </div>
+      </div>
+      <div className="w-1/3 flex flex-col gap-5">
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Driving Sustainable Change: IHP&apos;s Electric Motorcycle Initiative</h4>
+      <div className="w-full flex flex-row justify-between">
+        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+            
+      </div>
+      </div>
+      <div className="w-1/3 flex flex-col gap-5">
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
+      <div className="w-full flex flex-row justify-between">
+        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+            
+      </div>
+      </div>
+      </div>
+      </div>
     </div>
   )
 }
