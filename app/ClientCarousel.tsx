@@ -19,7 +19,7 @@ const ClientCarousel = () => {
   ];
 
   return (
-    <div className="py-12">
+    <div id="clientcarousel" className="py-12" >
         
       <div className="relative z-10">
         {/* Left gradient */}

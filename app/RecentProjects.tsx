@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { CiCircleChevRight } from "react-icons/ci";
+import Link from 'next/link';
 
 const RecentProjects = () => {
   return (
@@ -15,31 +16,37 @@ const RecentProjects = () => {
       <div className="w-[40%] flex flex-col justify-between">
       <h4 className="font-sans font-light text-4xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
       <p className="font-sans font-light text-justify  text-xl text-gray-800">Addressing the unique challenges faced by Pakistan&apos;s public education system, IHP is exploring the potential of generative AI to create more engaging, accessible, and effective learning opportunities for students.</p>
+      <Link href="/edubridge-ai">
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
         <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
         <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
+      </Link>
       </div>
       </div>
       <div className="flex flex-row gap-5">
       <div className="w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/greenmoto.jpeg')`}}></div>
       <h4 className="font-sans font-light text-3xl text-gray-800">A Critical Solution for Pakistan: Reducing Emissions Through GreenMoto Electric Motorbikes</h4>
+      <Link href="/greenmoto-pakistan">
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
         <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
         <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
+      </Link>
       </div>
       <div className="w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/sehat.jpeg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sahara: Addressing HIV/AIDS in Pakistan & IHP&apos;s Response</h4>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sehara: Addressing HIV/AIDS in Pakistan & IHP&apos;s Response</h4>
+      <Link href="/sehatsehara">
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
         <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
         <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
+      </Link>
       </div>
       <div className="w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>

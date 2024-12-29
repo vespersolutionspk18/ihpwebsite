@@ -14,7 +14,7 @@ const page = () => {
         
         <AboutHistory />
         <AboutMission   />
-        <Faqsection />
+      
         <Footer />
     </div>
   )

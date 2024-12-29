@@ -8,7 +8,7 @@ const Faqsection = () => {
     {
       question: "What inspired our founders to start this company?",
       answer:
-        "At the dawn of the new millennium, one of our founders envisioned a Pakistan that would stand tall as a beacon of hope and progress in Asia. Slowly, this vision turned into a reality as other like-minded individuals joined forces for the same cause. Educated at some of the world&apos;s most prestigious universities, we aimed to utilise our skills in service to our nation.",
+        "At the dawn of the new millennium, one of our founders envisioned a Pakistan that would stand tall as a beacon of hope and progress in Asia. Slowly, this vision turned into a reality as other like-minded individuals joined forces for the same cause. Educated at some of the most prestigious universities, we aimed to utilise our skills in service to our nation.",
     },
     {
       question: "How do you gain access to global best practices?",
