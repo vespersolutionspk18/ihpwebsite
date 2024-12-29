@@ -2,9 +2,9 @@ import React from 'react'
 
 const AboutHistory = () => {
   return (
-    <div className="px-10 pt-10 pb-16 flex flex-row gap-16 font-sans font-light bg-bgpink">
+    <div className="px-10 pt-10 pb-16 flex flex-col xl:flex-row gap-16 font-sans font-light bg-bgpink">
         
-        <div className="w-1/2">
+        <div className="xl:w-1/2">
         <h2 className="text-4xl text-llpink ">Our<br></br><span className="font-medium text-white">History</span></h2>
         <p className="text-xl mt-3 text-justify text-white">
         In 2012, our organization began its journey with humble beginnings. Operating out of a small rented office space and powered by the vision of four dedicated founders, we launched our first program—providing laptops to university students in rural Punjab. We recognized the transformative potential of these machines, understanding how access to technology could revolutionize education and empower students to contribute to a brighter future for Pakistan.
@@ -17,7 +17,7 @@ Over the years, our efforts have steadily grown. Today, we proudly host a robust
 
         </p>
         </div>
-        <div className="w-1/2">
+        <div className="xl:w-1/2">
         <h2 className="text-4xl text-llpink">IHP&apos;s<br></br><span className="font-medium text-white">Mission</span></h2>
         <p className="text-xl mt-3 text-justify text-white">
         Finding value in novelty is our passion. As an organization of change, we provide hope to those who await it. Our dedication has spanned much of the last 12 years, with each year bringing groundbreaking developments.

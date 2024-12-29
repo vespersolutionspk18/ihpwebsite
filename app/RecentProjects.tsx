@@ -11,9 +11,9 @@ const RecentProjects = () => {
         <Button variant="outline" className="rounded-full font-light text-xl font-sans hover:text-white hover:border-0 hover:bg-bgpink">View More</Button>
       </div>
       <div className="flex flex-col gap-5">
-      <div className="flex flex-row gap-10"> 
-      <div className="w-[60%] bg-cover rounded-2xl h-[360px]" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
-      <div className="w-[40%] flex flex-col justify-between">
+      <div className="flex flex-col xl:flex-row gap-10"> 
+      <div className="xl:w-[60%] bg-cover rounded-2xl h-[360px]" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
+      <div className="xl:w-[40%] flex flex-col justify-between">
       <h4 className="font-sans font-light text-4xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
       <p className="font-sans font-light text-justify  text-xl text-gray-800">Addressing the unique challenges faced by Pakistan&apos;s public education system, IHP is exploring the potential of generative AI to create more engaging, accessible, and effective learning opportunities for students.</p>
       <Link href="/edubridge-ai">
@@ -25,8 +25,8 @@ const RecentProjects = () => {
       </Link>
       </div>
       </div>
-      <div className="flex flex-row gap-5">
-      <div className="w-1/3 flex flex-col gap-5">
+      <div className="flex flex-col xl:flex-row gap-5">
+      <div className="xl:w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/greenmoto.jpeg')`}}></div>
       <h4 className="font-sans font-light text-3xl text-gray-800">A Critical Solution for Pakistan: Reducing Emissions Through GreenMoto Electric Motorbikes</h4>
       <Link href="/greenmoto-pakistan">
@@ -37,7 +37,7 @@ const RecentProjects = () => {
       </div>
       </Link>
       </div>
-      <div className="w-1/3 flex flex-col gap-5">
+      <div className="xl:w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/sehat.jpeg')`}}></div>
       <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sehara: Addressing HIV/AIDS in Pakistan & IHP&apos;s Response</h4>
       <Link href="/sehatsehara">
@@ -48,7 +48,7 @@ const RecentProjects = () => {
       </div>
       </Link>
       </div>
-      <div className="w-1/3 flex flex-col gap-5">
+      <div className="xl:w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
       <h4 className="font-sans font-light text-3xl text-gray-800">Scholarships Here</h4>
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">

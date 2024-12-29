@@ -13,7 +13,7 @@ import { Label } from "@/components/ui/label"
 
 const ContactHero = () => {
   return (
-    <div className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[600px]">
+    <div id="getintouch" className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[600px]">
       <div className="hidden bg-bgpink lg:block p-12 font-sans">
         <h3 className="text-3xl font-light text-white">Address</h3>
         <h4 className="text-xl font-light text-white mb-5">Office # 12, Jawad Centre, Q block, DHA, Lahore.</h4>

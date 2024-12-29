@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Aboutsection = () => {
   return (
-    <div className="px-16 py-20 flex flex-row gap-[336px] justify-between font-sans font-light">
+    <div className="px-16 py-20 flex flex-col xl:flex-row gap-10 xl:gap-[336px] justify-between font-sans font-light">
         
             <h4 className="text-gray-800 text-4xl font-normal">About <span className="font-medium text-bgpink">Us</span></h4>
         <div className="flex flex-col gap-5">
