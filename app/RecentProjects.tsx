@@ -34,7 +34,7 @@ const RecentProjects = () => {
       </div>
       <div className="w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/sehat.jpeg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sahara: Addressing HIV/AIDS in Pakistan & IHP's Response</h4>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sahara: Addressing HIV/AIDS in Pakistan & IHP&apos;s Response</h4>
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
         <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
         <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>

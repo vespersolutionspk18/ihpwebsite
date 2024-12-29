@@ -8,7 +8,7 @@ const AboutMission = () => {
           <div className="w-1/2 flex flex-col gap-3">
           <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">1</h3></div><h3 className="font-sans font-light text-2xl text-gray-800"> The Learning Process</h3></div>
           <p className="text-xl text-justify text-gray-800">
-          We begin by learning. Our vast volunteer network investigates groundbreaking global innovations in climate, economics, poverty reduction, gender, healthcare, and social justice. This knowledge fuels our "Developmental Potential Index," highlighting Pakistan&apos;s development gaps.
+          We begin by learning. Our vast volunteer network investigates groundbreaking global innovations in climate, economics, poverty reduction, gender, healthcare, and social justice. This knowledge fuels our &quot;Developmental Potential Index,&quot; highlighting Pakistan&apos;s development gaps.
 
         </p>
           </div>
