@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header'
-
+import GetinTouch from '../GetinTouch'
 import Faqsection from '../Faqsection'
 import Footer from '../Footer'
 import Greenmoto from './Greenmotohero'
