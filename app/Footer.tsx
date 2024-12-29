@@ -4,6 +4,7 @@ import React from 'react'
 import IHPLogo from "@/public/assets/iplogo.svg";
 import IHPLogopink from "@/public/assets/ihplogopink.svg";
 import { Separator } from '@/components/ui/separator';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
         <div className="w-3/4 flex flex-col justify-between gap-10 bg-white p-8 rounded-2xl">
             <IHPLogo alt="logo" className="w-20" />
             <h4 className="font-sans font-medium text-gray-800 text-5xl">Joining Hands for a Better Tomorrow</h4>
-            <div><Button className="w-auto rounded-full bg-bgpink hover:bg-dmagenta text-white font-sans font-light text-xl" >Learn More</Button></div>
+            <div><Link href="/about"><Button className="w-auto rounded-full bg-bgpink hover:bg-dmagenta text-white font-sans font-light text-xl" >Learn More</Button></Link></div>
         </div>
         </div>
         </div>
@@ -62,7 +63,7 @@ const Footer = () => {
             </div>
             <div className="w-full items-center justify-center flex mt-24"><IHPLogopink alt="logo" className="w-[320px] flex items-center justify-center" /></div>
             <Separator className="bg-lbpink w-full mt-8" />
-            <div className="flex flex-row justify-between p-3 font-sans font-light text-lg text-pink-200">
+            <div className="flex flex-row justify-between py-3 font-sans font-light text-lg text-pink-200">
             <div>Copyright IHP. All Rights Reserved</div>
             <div className="flex flex-row gap-5">
                 <p>Terms of Service</p>

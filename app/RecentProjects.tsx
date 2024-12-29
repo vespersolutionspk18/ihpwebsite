@@ -24,29 +24,29 @@ const RecentProjects = () => {
       </div>
       <div className="flex flex-row gap-5">
       <div className="w-1/3 flex flex-col gap-5">
-      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
-      <div className="w-full flex flex-row justify-between">
-        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
-        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/greenmoto.jpeg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">A Critical Solution for Pakistan: Reducing Emissions Through GreenMoto Electric Motorbikes</h4>
+      <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
+        <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
+            
+      </div>
+      </div>
+      <div className="w-1/3 flex flex-col gap-5">
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/sehat.jpeg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Sehat Sahara: Addressing HIV/AIDS in Pakistan & IHP's Response</h4>
+      <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
+        <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
       </div>
       <div className="w-1/3 flex flex-col gap-5">
       <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Driving Sustainable Change: IHP&apos;s Electric Motorcycle Initiative</h4>
-      <div className="w-full flex flex-row justify-between">
-        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
-        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
-            
-      </div>
-      </div>
-      <div className="w-1/3 flex flex-col gap-5">
-      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Integrating Generative AI for Enhanced Learning Outcomes in Public Schools</h4>
-      <div className="w-full flex flex-row justify-between">
-        <p className="font-sans text-md font-light text-gray-800">5 May 2023 &bull; 7 Minute Read</p>
-        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 hover:text-gray-600 hover:rotate-0"/>
+      <h4 className="font-sans font-light text-3xl text-gray-800">Scholarships Here</h4>
+      <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
+        <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
+        <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
       </div>
