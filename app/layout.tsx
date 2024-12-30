@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,11 +12,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "IHP",
-  description: "Initiative for Human Prosperity",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,11 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content="Initiative for Human Prosperity" />
         <title>IHP</title>
-      </head>
+        <meta name="description" content="Initiative for Human Prosperity" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -54,7 +54,7 @@ const Footer = () => {
               <li onClick={() => handleLinkClick('/edubridge-ai')}>Edubridge AI</li>
               <li onClick={() => handleLinkClick('/sehatsehara')}>Sehat Sehara</li>
               <li onClick={() => handleLinkClick('/greenmoto-pakistan')}>GreenMoto Pakistan</li>
-              <li onClick={() => handleLinkClick('/scholarships')}>Scholarships</li>
+              <li onClick={() => handleLinkClick('/scholarships')}>National Scholarship</li>
             </ul>
           </div>
           <div>
