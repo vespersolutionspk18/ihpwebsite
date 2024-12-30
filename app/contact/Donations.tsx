@@ -14,7 +14,7 @@ const Donations = () => {
           </div>
           <div className="w-1/2 flex flex-col gap-3">
           <p className="text-xl text-justify text-gray-800">
-          Unfortunately our organisation does not accept individual donations without prior vetting of the relevant party. If you are interested in donating please do not hesitate to contact us at <b><b>info@ihporganisation.org</b></b>
+          Unfortunately our organisation does not accept individual donations without prior vetting of the relevant party. If you are interested in donating please do not hesitate to contact us at <b><b>info@ihppakistan.org</b></b>
 
 
         </p>

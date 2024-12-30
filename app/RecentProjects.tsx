@@ -49,13 +49,15 @@ const RecentProjects = () => {
       </Link>
       </div>
       <div className="xl:w-1/3 flex flex-col gap-5">
-      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/education.jpg')`}}></div>
-      <h4 className="font-sans font-light text-3xl text-gray-800">Scholarships Here</h4>
+      <div className="w-full h-[240px] bg-cover bg-center rounded-2xl" style={{backgroundImage: `url('/assets/scholarshiphero.jpeg')`}}></div>
+      <h4 className="font-sans font-light text-3xl text-gray-800">IHP Scholarship: An Initiative Dedicated to the Development of Young Minds</h4>
+      <Link href="/scholarships">
       <div className="w-full flex flex-row justify-between hover:cursor-pointer group">
         <p className="font-sans text-md font-light text-gray-800 group-hover:font-medium">Learn More</p>
         <CiCircleChevRight className="w-8 h-8 text-gray-400 -rotate-45 group-hover:text-gray-600 group-hover:rotate-0"/>
             
       </div>
+      </Link>
       </div>
       </div>
       </div>

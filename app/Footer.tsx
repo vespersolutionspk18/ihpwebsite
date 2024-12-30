@@ -42,7 +42,7 @@ const Footer = () => {
         <div className="w-full gap-4 lg:gap-0 flex flex-row justify-between p-10 font-sans font-light text-xl xl:text-2xl text-pink-100">
           <div>
             Navigation
-            <ul className="text-pink-200 text-lg xl:text-xl mt-5">
+            <ul className="text-pink-200 text-lg xl:text-xl mt-5 hover:cursor-pointer">
               <li onClick={() => handleLinkClick('/')}>Home</li>
               <li onClick={() => handleLinkClick('/about')}>About</li>
               <li onClick={() => handleLinkClick('/contact')}>Contact</li>
@@ -50,15 +50,16 @@ const Footer = () => {
           </div>
           <div>
             Recent Projects
-            <ul className="text-pink-200 text-xl mt-5">
+            <ul className="text-pink-200 text-xl mt-5 hover:cursor-pointer">
               <li onClick={() => handleLinkClick('/edubridge-ai')}>Edubridge AI</li>
               <li onClick={() => handleLinkClick('/sehatsehara')}>Sehat Sehara</li>
               <li onClick={() => handleLinkClick('/greenmoto-pakistan')}>GreenMoto Pakistan</li>
+              <li onClick={() => handleLinkClick('/scholarships')}>Scholarships</li>
             </ul>
           </div>
           <div>
             Organisation
-            <ul className="text-pink-200 text-xl mt-5">
+            <ul className="text-pink-200 text-xl mt-5 hover:cursor-pointer">
               <li onClick={() => handleLinkClick('/about')}>About IHP</li>
               <li onClick={() => handleLinkClick('/#clientcarousel')}>Donors</li>
               <li onClick={() => handleLinkClick('/about')}>History</li>
@@ -66,10 +67,10 @@ const Footer = () => {
           </div>
           <div>
             Contact
-            <ul className="text-pink-200 text-xl mt-5">
+            <ul className="text-pink-200 text-xl mt-5 hover:cursor-pointer">
               <li onClick={() => handleLinkClick('/contact#getintouch')}>Get in Touch</li>
               <li onClick={() => handleLinkClick('/contact#donations')}>Donations</li>
-              <li onClick={() => handleLinkClick('/scholarships')}>Scholarships</li>
+              <li onClick={() => handleLinkClick('/about#methodology')}>Methodology</li>
             </ul>
           </div>
         </div>

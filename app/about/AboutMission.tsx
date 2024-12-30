@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMission = () => {
   return (
-    <div className="p-10 flex flex-col gap-10 font-sans font-light">
+    <div id="methodology" className="p-10 flex flex-col gap-10 font-sans font-light">
         <h2 className="text-4xl text-gray-800">Our<br></br><span className="font-medium text-bgpink">Methodology</span></h2>
         <div className="flex flex-col xl:flex-row gap-10">
           <div className="xl:w-1/2 flex flex-col gap-3">

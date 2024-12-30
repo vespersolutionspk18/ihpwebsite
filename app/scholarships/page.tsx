@@ -5,6 +5,7 @@ import Footer from '../Footer'
 import Scholarshiphero from './Scholarshiphero'
 import ScholarshipBody from './ScholarshipBody'
 import ScholarshipSelectionProcess from './ScholarshipSelectionProcess'
+import Scholarshipbenefits from './Scholarshipbenefits'
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
     <Header />
     <Scholarshiphero />
     <ScholarshipBody />
+    <Scholarshipbenefits />
     <ScholarshipSelectionProcess />
     <Faqsection />
     <Footer />

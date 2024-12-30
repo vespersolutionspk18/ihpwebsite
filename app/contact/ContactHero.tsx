@@ -16,13 +16,13 @@ const ContactHero = () => {
     <div id="getintouch" className="w-full lg:grid lg:min-h-[600px] lg:grid-cols-2 xl:min-h-[600px]">
       <div className="hidden bg-bgpink lg:block p-12 font-sans">
         <h3 className="text-3xl font-light text-white">Address</h3>
-        <h4 className="text-xl font-light text-white mb-5">Office # 12, Jawad Centre, Q block, DHA, Lahore.</h4>
+        <h4 className="text-xl font-light text-white mb-5">Office # 11, Arif Centre, Q block, DHA, Lahore.</h4>
 <h3 className="text-3xl font-light text-white">Branch Office</h3>
-        <h4 className="text-xl font-light text-white mb-5"> Sheridan WY 82801-6317, United States</h4>
+        <h4 className="text-xl font-light text-white mb-5">183-D, Shahra-e-Faisal, Karachi</h4>
 <h3 className="text-3xl font-light text-white">Email</h3>
-        <h4 className="text-xl font-light text-white mb-5">info@ihporganisation.org</h4>
+        <h4 className="text-xl font-light text-white mb-5">info@ihppakistan.org</h4>
 <h3 className="text-3xl font-light text-white">Phone No</h3>
-        <h4 className="text-xl font-light text-white mb-5">+92 300 0000000</h4>
+        <h4 className="text-xl font-light text-white mb-5">+92 300 3771973</h4>
       </div>
         <div id="contains the form" className="p-10 bg-bgpink">
   <Card className="mx-auto border-0">

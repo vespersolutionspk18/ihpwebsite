@@ -6,16 +6,17 @@ const ScholarshipSelectionProcess = () => {
     <h2 className="text-4xl text-gray-800">Selection<br></br><span className="font-medium text-bgpink">Process</span></h2>
     <div className="flex flex-col xl:flex-row gap-10">
       <div className="xl:w-1/2 flex flex-col gap-3">
-      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">1</h3></div><h3 className="font-sans font-light text-2xl text-gray-800"> The Learning Process</h3></div>
+      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">1</h3></div><h3 className="font-sans font-light text-2xl text-gray-800">Apply</h3></div>
       <p className="text-xl text-justify text-gray-800">
-      We begin by learning. Our vast volunteer network investigates groundbreaking global innovations in climate, economics, poverty reduction, gender, healthcare, and social justice. This knowledge fuels our &quot;Developmental Potential Index,&quot; highlighting Pakistan&apos;s development gaps.
+      Send in module 1 of your application through our portal if you have been shortlisted to apply through our AC program. Complete your personal statement of 1200 words, fill in your biographical details, and elaborate on any extracurricular achievements which you have attained during high school. (Students applying through DOI must complete module 2 which includes additional mandatory fields listing their past educational history, and additional supplemental questions).
+
 
     </p>
       </div>
       <div className="xl:w-1/2 flex flex-col gap-3">
-      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">2</h3></div><h3 className="font-sans font-light text-2xl text-gray-800"> Identifying Key Issues</h3></div>
+      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">2</h3></div><h3 className="font-sans font-light text-2xl text-gray-800">Evaluative Testing</h3></div>
       <p className="text-xl text-justify text-gray-800">
-      After presenting this report to our board, we vote on issues that we feel are the most important and would lead to the greatest change in Pakistan. These issues must be suited to the current sociopolitical and economic context of Pakistan and must be implementable nationwide, not just restricted to specific provinces.
+      Give our specially developed evaluative test which assesses your logical reasoning, spatial reasoning, quantitative reasoning and decision-making skills. Students with a SAT score above 1500 or an ACT score above 34 may elect to skip the test (Proof of testing is mandatory).
 
 
     </p>
@@ -23,16 +24,17 @@ const ScholarshipSelectionProcess = () => {
     </div>
     <div className="flex flex-col xl:flex-row gap-10">
       <div className="xl:w-1/2 flex flex-col gap-3">
-      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">3</h3></div><h3 className="font-sans font-light text-2xl text-gray-800"> Project Planning & Execution</h3></div>
+      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">3</h3></div><h3 className="font-sans font-light text-2xl text-gray-800">Individual Interview</h3></div>
       <p className="text-xl text-justify text-gray-800">
-      Project execution is paramount. Our team partners with field experts to craft realistic national plans for our Initiatives of Prosperity (IPs). This rigorous process, lasting 4-12 months, culminates in the launch of IPs
+      Students who have successfully passed testing are contacted by a single member of our network of students/postgraduates for a one-on-one interview. This interview is primarily used to assess the student’s personality, verbal skills, and allows for clarification regarding questions around student applications.
 
     </p>
       </div>
       <div className="xl:w-1/2 flex flex-col gap-3">
-      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">4</h3></div><h3 className="font-sans font-light text-2xl text-gray-800"> Constant Evaluation & Improvement</h3></div>
+      <div className=" w-full flex flex-row items-center gap-3"><div className="bg-bgpink h-10 w-10 rounded-full flex items-center justify-center"><h3 className="font-sans font-light text-2xl text-white">4</h3></div><h3 className="font-sans font-light text-2xl text-gray-800">Committee Testing</h3></div>
       <p className="text-xl text-justify text-gray-800">
-      Constant evaluation reports allow us to continuously improve and address any deficiencies. This iterative process ensures that we remain adaptable and effective in our mission to bring about positive change in Pakistan.
+      The organizational committee of board-certified psychologists, professors, and educational administrators conducts individual interviews of 20 selected students, after which they select one student from the STEM stream and one from the humanities stream. This interview is designed to assess the student’s competence, potential and ability to significantly contribute back to Pakistan. 
+
 
 
     </p>

@@ -54,7 +54,7 @@ const Header = () => {
           <div className="w-full gap-4 lg:gap-0 flex flex-col xl:flex-row justify-between p-10 font-sans font-regular text-xl xl:text-2xl text-gray-700">
             <div>
               Navigation
-              <ul className="text-gray-800 font-light text-lg xl:text-xl mt-5">
+              <ul className="text-gray-800 font-light text-lg xl:text-xl mt-5 hover:cursor-pointer">
                 <li onClick={() => handleLinkClick("/")}>Home</li>
                 <li onClick={() => handleLinkClick("/about")}>About</li>
                 <li onClick={() => handleLinkClick("/contact")}>Contact</li>
@@ -62,7 +62,7 @@ const Header = () => {
             </div>
             <div>
               Recent Projects
-              <ul className="text-gray-800 font-light text-xl mt-5">
+              <ul className="text-gray-800 font-light text-xl mt-5 hover:cursor-pointer">
                 <li onClick={() => handleLinkClick("/edubridge-ai")}>
                   Edubridge AI
                 </li>
@@ -72,11 +72,14 @@ const Header = () => {
                 <li onClick={() => handleLinkClick("/greenmoto-pakistan")}>
                   GreenMoto Pakistan
                 </li>
+                <li onClick={() => handleLinkClick("/scholarships")}>
+                  Scholarships
+                </li>
               </ul>
             </div>
             <div>
               Organisation
-              <ul className="text-gray-800 font-light text-xl mt-5">
+              <ul className="text-gray-800 font-light text-xl mt-5 hover:cursor-pointer">
                 <li onClick={() => handleLinkClick("/about")}>About IHP</li>
                 <li onClick={() => handleLinkClick("/#clientcarousel")}>
                   Donors
@@ -86,15 +89,15 @@ const Header = () => {
             </div>
             <div>
               Contact
-              <ul className="text-gray-800 font-light text-xl mt-5">
+              <ul className="text-gray-800 font-light text-xl mt-5 hover:cursor-pointer">
                 <li onClick={() => handleLinkClick("/contact#getintouch")}>
                   Get in Touch
                 </li>
                 <li onClick={() => handleLinkClick("/contact#donations")}>
                   Donations
                 </li>
-                <li onClick={() => handleLinkClick("/scholarships")}>
-                  Scholarships
+                <li onClick={() => handleLinkClick("/about#methodology")}>
+                  Methodology
                 </li>
               </ul>
             </div>
