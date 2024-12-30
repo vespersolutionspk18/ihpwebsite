@@ -15,7 +15,7 @@ const ChairmanLetter = () => {
         <br /><br />
         This transformation has been made possible through the unwavering trust of our stakeholders - including citizens, communities, donors, NGOs, and government agencies—and the successful execution of community-driven projects with dedication, transparency, and enthusiasm. I want to express my heartfelt gratitude to our incredible team. This progress would not have been possible without their collective efforts, commitment, and passion. I congratulate each member of the team for helping IHP reach this milestone and commend their hard work.
         <br /><br />
-        Looking ahead, I am confident that IHP will continue to grow and expand its impact, our nation’s progress reaching unparalleled heights.
+        Looking ahead, I am confident that IHP will continue to grow and expand its impact, our nation&apos;s progress reaching unparalleled heights.
 
             <br /><br />
             <span className="font-semibold text-dmagenta">Imtiaz Akram Wahla</span>
@@ -23,7 +23,7 @@ const ChairmanLetter = () => {
     </div>
     <div
         className="px-10 w-full md:w-1/2 bg-cover bg-center min-h-screen rounded-2xl"
-        style={{ backgroundImage: `url('/assets/chairman.jpeg')` }}
+        style={{ backgroundImage: `url('/assets/imranakram.jpeg')` }}
     >
     </div>
 </div>

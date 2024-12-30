@@ -73,7 +73,7 @@ const Header = () => {
                   GreenMoto Pakistan
                 </li>
                 <li onClick={() => handleLinkClick("/scholarships")}>
-                  Scholarships
+                  National Scholarship
                 </li>
               </ul>
             </div>
